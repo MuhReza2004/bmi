@@ -1,0 +1,46 @@
+
+.card {
+    border-radius: 15px;
+    border: none;
+}
+
+.form-control, .form-select {
+    border-radius: 10px;
+    padding: 12px;
+    border: 1px solid #e0e0e0;
+}
+
+.form-control:focus, .form-select:focus {
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.25);
+    border-color: #667eea;
+}
+
+.btn-calculate {
+    background: linear-gradient(45deg, #667eea, #764ba2);
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-calculate:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+.result-card {
+    transition: all 0.3s ease;
+}
+
+.result-card:hover {
+    transform: translateY(-5px);
+}
+
+.bmi-value {
+    font-size: 3.5rem;
+    font-weight: bold;
+    background: linear-gradient(45deg, #0f3bff, #2916f6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
