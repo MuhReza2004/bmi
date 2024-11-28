@@ -1,7 +1,9 @@
-
 .card {
     border-radius: 15px;
     border: none;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
 }
 
 .form-control, .form-select {
@@ -43,4 +45,33 @@
     background: linear-gradient(45deg, #0f3bff, #2916f6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto 2rem;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}
+
+/* .gradient-custom {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+} */
+
+#bmi-form {
+    background-color: #f8f9fa;
+    border-radius: 15px;
+}
+
+.form-label {
+    font-weight: 600;
+    color: #4a5568;
+    margin-bottom: 0.5rem;
 }
